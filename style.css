@@ -92,24 +92,26 @@ padding: 12px 0;
 color: #ffffff;
 text-decoration: none;
 }
-.menu {
-background-color: #424e61;
-width: 100%;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
 }
 
-.menu ul {
-list-style: none;
-display: flex;
-justify-content: center;
+ul li {
+  float: left;
 }
 
-.menu li a {
-display: block;
-color: white;
-text-decoration: none;
-padding: 15px 25px;
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.menu li a:hover {
-background-color: #40A2E3;
+ul li a:hover {
+  background-color: #111111;
 }
