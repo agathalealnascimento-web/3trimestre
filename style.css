@@ -92,3 +92,24 @@ padding: 12px 0;
 color: #ffffff;
 text-decoration: none;
 }
+.menu {
+background-color: #424e61;
+width: 100%;
+}
+
+.menu ul {
+list-style: none;
+display: flex;
+justify-content: center;
+}
+
+.menu li a {
+display: block;
+color: white;
+text-decoration: none;
+padding: 15px 25px;
+}
+
+.menu li a:hover {
+background-color: #40A2E3;
+}
